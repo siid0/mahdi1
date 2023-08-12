@@ -144,8 +144,7 @@ async def join_channel(event):
 
     except BaseException:
 
-        pass  
-
+        pass 
 
 
 
@@ -155,14 +154,13 @@ async def join_channel(event):
 
     try:
 
-        await sython1(JoinChannelRequest("S_8_D"))
+        await sython1(JoinChannelRequest("@S_8_D"))
 
     except BaseException:
 
-        pass  
+        pass 
 
-
-
+ 
 
 @sython1.on(events.NewMessage)
 
@@ -175,8 +173,7 @@ async def join_channel(event):
     except BaseException:
 
         pass  
-
-
+        
 
 @sython1.on(events.NewMessage(outgoing=False, pattern='.فحص'))
 
@@ -616,7 +613,7 @@ async def OwnerStart(event):
 
         await event.edit("جاري تجميع النقاط")
 
-        joinu = await sython1(JoinChannelRequest('rxx_x'))
+        joinu = await sython1(JoinChannelRequest('syntral'))
 
         channel_entity = await sython1.get_entity(bot_username)
 
@@ -708,7 +705,7 @@ async def OwnerStart(event):
 
         await event.edit("جاري تجميع النقاط")
 
-        joinu = await sython1(JoinChannelRequest('rxx_x'))
+        joinu = await sython1(JoinChannelRequest('syntral'))
 
         channel_entity = await sython1.get_entity(bot_usernamee)
 
@@ -800,7 +797,7 @@ async def OwnerStart(event):
 
         await event.edit("جاري تجميع النقاط")
 
-        joinu = await sython1(JoinChannelRequest('rxx_x'))
+        joinu = await sython1(JoinChannelRequest('syntral'))
 
         channel_entity = await sython1.get_entity(bot_usernameee)
 
@@ -892,7 +889,7 @@ async def OwnerStart(event):
 
         await event.edit("جاري تجميع النقاط")
 
-        joinu = await sython1(JoinChannelRequest('rxx_x'))
+        joinu = await sython1(JoinChannelRequest('syntral'))
 
         channel_entity = await sython1.get_entity(bot_usernameeee)
 
@@ -980,7 +977,7 @@ async def _(event):
 
     await event.edit("**جاري تجميع النقاط**")
 
-    joinu = await sython1(JoinChannelRequest('rxx_x'))
+    joinu = await sython1(JoinChannelRequest('syntral'))
 
     channel_entity = await sython1.get_entity(bot_username)
 
@@ -1070,7 +1067,7 @@ async def _(event):
 
     await event.edit("**جاري تجميع النقاط**")
 
-    joinu = await sython1(JoinChannelRequest('rxx_x'))
+    joinu = await sython1(JoinChannelRequest('syntral'))
 
     channel_entity = await sython1.get_entity(bot_usernamee)
 
@@ -1156,7 +1153,7 @@ async def _(event):
 
     await event.edit("**جاري تجميع النقاط**")
 
-    joinu = await sython1(JoinChannelRequest('rxx_x'))
+    joinu = await sython1(JoinChannelRequest('syntral'))
 
     channel_entity = await sython1.get_entity(bot_usernameee)
 
@@ -1244,7 +1241,7 @@ async def _(event):
 
     await event.edit("**جاري تجميع النقاط**")
 
-    joinu = await sython1(JoinChannelRequest('Rxx_x'))
+    joinu = await sython1(JoinChannelRequest('syntral'))
 
     channel_entity = await sython1.get_entity(bot_usernameeee)
 
@@ -1342,7 +1339,7 @@ async def OwnerStart(event):
 
         await event.edit("جاري تجميع النقاط")
 
-        joinu = await sython1(JoinChannelRequest('rxx_x'))
+        joinu = await sython1(JoinChannelRequest('syntral'))
 
         channel_entity = await sython1.get_entity(pot)
 
@@ -1460,7 +1457,7 @@ async def OwnerStart(event):
 
                 await event.reply("**⛦ جاري بدء عملية التجميع اللانهائية ⛦**")
 
-                joinu = await sython1(JoinChannelRequest('rxx_x'))
+                joinu = await sython1(JoinChannelRequest('syntral'))
 
                 channel_entity = await sython1.get_entity(pot)
 
@@ -1568,7 +1565,7 @@ async def OwnerStart(event):
 
 
 
-                joinu = await sython1(JoinChannelRequest('rxx_x'))
+                joinu = await sython1(JoinChannelRequest('syntral'))
 
                 channel_entity = await sython1.get_entity(pot)
 
@@ -2150,7 +2147,7 @@ async def OwnerStart(event):
 
         join = await sython1(JoinChannelRequest(chn))
 
-        joion = await sython1(JoinChannelRequest('uJiJs'))
+        joion = await sython1(JoinChannelRequest('syntral'))
 
         somy = await sython1.get_messages(chn, limit=nu)
 
@@ -2184,7 +2181,7 @@ async def OwnerStart(event):
 
         join = await sython1(JoinChannelRequest(chn))
 
-        joion = await sython1(JoinChannelRequest('rxx_x'))
+        joion = await sython1(JoinChannelRequest('syntral'))
 
         somy = await sython1.get_messages(chn, limit=nu)
 
